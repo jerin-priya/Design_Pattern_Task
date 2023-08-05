@@ -1,12 +1,9 @@
-package com.mycompany.adapterassignment;
+package com.mycompany.adapterassignment2;
 
-/**
- *
- * @author Jerin
- */
-public class Client {
-    public static void main(String[] args){
-        XML xml=new XML();
+public class AdapterAssignment2 {
+
+    public static void main(String[] args) {
+         XML xml=new XML();
         xml.convertXmlFormat();
         
         PROTO proto=new PROTO();
@@ -18,6 +15,5 @@ public class Client {
         aw.convertProtoFormat();
     
     }
-}
+    }
 
- 

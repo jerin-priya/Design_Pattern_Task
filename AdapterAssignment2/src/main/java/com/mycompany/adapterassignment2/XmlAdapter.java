@@ -1,10 +1,5 @@
+package com.mycompany.adapterassignment2;
 
-package com.mycompany.adapterassignment;
-
-/**
- *
- * @author User
- */
 public interface XmlAdapter {
      public void convertXmlFormat();
 }

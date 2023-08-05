@@ -1,10 +1,5 @@
+package com.mycompany.adapterassignment2;
 
-package com.mycompany.adapterassignment;
-
-/**
- *
- * @author User
- */
 public class AdapterWorks implements ProtoAdapter {
      XML convertXml;
     
@@ -17,3 +12,4 @@ public class AdapterWorks implements ProtoAdapter {
          convertXml.convertXmlFormat();
      }
 }
+  
